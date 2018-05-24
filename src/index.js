@@ -122,7 +122,7 @@ export function validateNif(value) {
     if (k === 10) {
       k = 0;
     }
-    if (k === arrayOfChar[i] - '0') {
+    if (k === arrayOfChar[j] - '0') {
       if (caracEnCad(CHARS_REGATRIBRENTAS, arrayOfChar[i2])) {
         return CIF_NORESIDENTES_OK;
       }
